@@ -25,8 +25,8 @@ and Service Mapping in such external credential repository rather than directly 
 ####4.  Download Mid Server from ServiceNow Instance.
         Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_DownloadMIDServerFiles.html
 
-####5. Install Mid server
-Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html
+####5.  Install Mid server
+        Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html
 
 ####6. Validate the Mid Server
 Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_ValidateAMIDServer.html#t_ValidateAMIDServer
