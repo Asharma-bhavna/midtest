@@ -14,7 +14,7 @@ and Service Mapping in such external credential repository rather than directly 
 ### Prerequisite
 
 #### 1. Download the Centrify Credential Resolver JAR File, To download the plugin.
-     navigate to the Centrify Download Center: www.Centrify.com > Support > Downloads and click on the Tools and Plugins > ServiceNow Integration.
+     Nvigate to the Centrify Download Center: www.Centrify.com > Support > Downloads and click on the Tools and Plugins > ServiceNow Integration.
 
 #### 2. Activate the External Credential Plugin on ServiceNow Instance.
 Reference :- https://docs.servicenow.com/bundle/paris-servicenow-platform/page/product/credentials/task/t_ActivateExtrnlCredStoragePlugIn.html
@@ -66,14 +66,14 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
 		2.5 Select the External credential store check box.
 		2.6 The User name and Password fields disappear, and the Credential ID field appears
 		2.7 Enter the unique key configured for external credentials in the JAR file uploaded
-        to the MID Server for an external credential system. eg.(Administrator)
+        	to the MID Server for an external credential system. eg.(Administrator)
 		2.8 Click Test Credential
 		2.9 Enter the Target Machine IP address/hostname.
 		2.10 Choose the Mid Server
 		2.11 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
 
 
-####3. Credential Plugin Test for Active Directory Domain Accounts
+#### 3. Credential Plugin Test for Active Directory Domain Accounts
 		3.1 Vaulted system in Centrify must follow all the guidelines for Active Directory mentioned in the Centrify Vault usage section.
 		3.2 Create a Windows credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
 		3.3 Click New.
@@ -95,7 +95,7 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
 		4.5 Select the External credential store check box.
 		4.6 The User name and Password fields disappear, and the Credential ID field appears
 		4.7 Enter the unique key configured for database accounts for external credentials in the JAR file uploaded
-        to the MID Server for an external credential system eg.(databaseusername)
+        	to the MID Server for an external credential system eg.(databaseusername)
 		4.8 Click Test Credential
 		4.9 Enter the Target IP address/hostname of the database.
 		4.10 Provide an relevant port number.
