@@ -17,16 +17,16 @@ and Service Mapping in such external credential repository rather than directly 
      navigate to the Centrify Download Center: www.Centrify.com > Support > Downloads and click on the Tools and Plugins > ServiceNow Integration.
 
 #### 2. Activate the External Credential Plugin on ServiceNow Instance.
-        Reference :- https://docs.servicenow.com/bundle/paris-servicenow-platform/page/product/credentials/task/t_ActivateExtrnlCredStoragePlugIn.html
+Reference :- https://docs.servicenow.com/bundle/paris-servicenow-platform/page/product/credentials/task/t_ActivateExtrnlCredStoragePlugIn.html
 
 #### 3.  Activate the Discovery plugin on ServiceNow Instance.
-        Reference :- https://community.servicenow.com/community?id=community_question&sys_id=67f8cd5fdb1e9414fa192183ca961936
+Reference :- https://community.servicenow.com/community?id=community_question&sys_id=67f8cd5fdb1e9414fa192183ca961936
 
 #### 4.  Download Mid Server from ServiceNow Instance.
-        Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_DownloadMIDServerFiles.html
+Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_DownloadMIDServerFiles.html
 
 #### 5.  Install Mid server
-        Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html
+Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/concept/mid-server-installation.html
 
 #### 6. Validate the Mid Server
 Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_ValidateAMIDServer.html#t_ValidateAMIDServer
