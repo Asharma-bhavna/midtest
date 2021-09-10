@@ -34,11 +34,11 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
 ### Centrify Vault usage
 
 #### 1. For Local Account of the Server.
-    #### 1.1 Enroll/Create the System in Centrify Vault.
-    #### 1.2 Add the suitable user in the accounts section for the system.
-    #### 1.3 Create an ServiceUser provide all the required rights.
-    #### 1.4 Provide the view permission of the system to the ServiceUser.
-    #### 1.5 Provide the checkout permission of the system account to the ServiceUser.
+        1.1 Enroll/Create the System in Centrify Vault.
+        1.2 Add the suitable user in the accounts section for the system.
+        1.3 Create an ServiceUser provide all the required rights.
+        1.4 Provide the view permission of the system to the ServiceUser.
+        1.5 Provide the checkout permission of the system account to the ServiceUser.
 
 #### 2. For Active Directory Account of the Server.
     #### 2.1 Enroll/Create the System in Centrify Vault.
