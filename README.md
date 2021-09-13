@@ -69,47 +69,47 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
 Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_SynchronizeAJARFiletoMIDServers.html
 
 #### 2. Credential Plugin Test for Windows Local Account
-    #### 2.1 Vaulted system in Centrify must follow all the guidelines for local accounts mentioned in the Centrify Vault usage section
-    #### 2.2 Create a Windows credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
-    #### 2.3 Click New.
-    #### 2.4 Select window credential type.
-    #### 2.5 Select the External credential store check box.
-    #### 2.6 The User name and Password fields disappear, and the Credential ID field appears
-    #### 2.7 Enter the unique key configured for external credentials in the JAR file uploaded
+        2.1 Vaulted system in Centrify must follow all the guidelines for local accounts mentioned in the Centrify Vault usage section
+        2.2 Create a Windows credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
+        2.3 Click New.
+        2.4 Select window credential type.
+        2.5 Select the External credential store check box.
+        2.6 The User name and Password fields disappear, and the Credential ID field appears
+        2.7 Enter the unique key configured for external credentials in the JAR file uploaded
         to the MID Server for an external credential system. eg.(Administrator)
-    #### 2.8 Click Test Credential
-    #### 2.9 Enter the Target Machine IP address/hostname.
-    #### 2.10 Choose the Mid Server
-    #### 2.11 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
+        2.8 Click Test Credential
+        2.9 Enter the Target Machine IP address/hostname.
+        2.10 Choose the Mid Server
+        2.11 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
 
 
-####3. Credential Plugin Test for Active Directory Domain Accounts
-    #### 3.1 Vaulted system in Centrify must follow all the guidelines for Active Directory mentioned in the Centrify Vault usage section.
-    #### 3.2 Create a Windows credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
-    #### 3.3 Click New.
-    #### 3.4 Select window credential type.
-    #### 3.5 Select the External credential store check box.
-    #### 3.6 The User name and Password fields disappear, and the Credential ID field appears
-    #### 3.7 Enter the unique key configured for domain accounts for external credentials in the JAR file uploaded
+#### 3. Credential Plugin Test for Active Directory Domain Accounts
+        3.1 Vaulted system in Centrify must follow all the guidelines for Active Directory mentioned in the Centrify Vault usage section.
+        3.2 Create a Windows credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
+        3.3 Click New.
+        3.4 Select window credential type.
+        3.5 Select the External credential store check box.
+        3.6 The User name and Password fields disappear, and the Credential ID field appears
+        3.7 Enter the unique key configured for domain accounts for external credentials in the JAR file uploaded
             to the MID Server for an external credential system eg.(domainname\Administrator)
-    #### 3.8 Click Test Credential
-    #### 3.9 Enter the Target Machine IP address/hostname.
-    #### 3.10 Choose the Mid Server
-    #### 3.11 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
+        3.8 Click Test Credential
+        3.9 Enter the Target Machine IP address/hostname.
+        3.10 Choose the Mid Server
+        3.11 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
 
 #### 4. Credential Plugin Test for Database Accounts
-    #### 4.1 Vaulted system in Centrify must follow all the guidelines for database accounts mentioned in the Centrify Vault usage section.
-    #### 4.2 Create a Database credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
-    #### 4.3 Click New.
-    #### 4.4 Select JDBC credential type.
-    #### 4.5 Select the External credential store check box.
-    #### 4.6 The User name and Password fields disappear, and the Credential ID field appears
-    #### 4.7 Enter the unique key configured for database accounts for external credentials in the JAR file uploaded
+        4.1 Vaulted system in Centrify must follow all the guidelines for database accounts mentioned in the Centrify Vault usage section.
+        4.2 Create a Database credential in ServiceNow Instance by Navigate to Discovery > Credentials. 
+        4.3 Click New.
+        4.4 Select JDBC credential type.
+        4.5 Select the External credential store check box.
+        4.6 The User name and Password fields disappear, and the Credential ID field appears
+        4.7 Enter the unique key configured for database accounts for external credentials in the JAR file uploaded
         to the MID Server for an external credential system eg.(databaseusername)
-    #### 4.8 Click Test Credential
-    #### 4.9 Enter the Target IP address/hostname of the database.
-    #### 4.10 Provide an relevant port number.
-    #### 4.11 Select the appropriate database type.
-    #### 4.12 Provide the database name.
-    #### 4.13 Choose the Mid Server
-    #### 4.14 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
+        4.8 Click Test Credential
+        4.9 Enter the Target IP address/hostname of the database.
+        4.10 Provide an relevant port number.
+        4.11 Select the appropriate database type.
+        4.12 Provide the database name.
+        4.13 Choose the Mid Server
+        4.14 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
