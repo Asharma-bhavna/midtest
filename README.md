@@ -32,12 +32,24 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
 Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/product/mid-server/task/t_ValidateAMIDServer.html#t_ValidateAMIDServer
 
 
-### Note: Vault Suite 21.5 specific setup for Domain Account Access
+Note: Vault Suite 21.5 specific setup for Domain Account Access
+    > Download and Install the Centrify Connector from Centrify Portal.
+    > Register the connector with Domain and PAS portal.(https://docs.centrify.com/Content/CoreServices/Connector/ConnInstall.htm)
+    > Verify the connector is correctly configured using the "Test Connection" option on the connector page.
+    > 4. Verify the domain and account setting on PAS.
+    > 5. Follow the remaining steps as mentioned in Step 2 under Centrify Vault usage section.
+
+---
+**NOTE**
+
 #### 1. Download and Install the Centrify Connector from Centrify Portal.
 #### 2. Register the connector with Domain and PAS portal.(https://docs.centrify.com/Content/CoreServices/Connector/ConnInstall.htm)
 #### 3. Verify the connector is correctly configured using the "Test Connection" option on the connector page.
 #### 4. Verify the domain and account setting on PAS.
 #### 5. Follow the remaining steps as mentioned in Step 2 under Centrify Vault usage section.
+
+**NOTE**
+---
 
 
 ### Centrify Vault usage
@@ -112,3 +124,13 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
     #### 4.12 Provide the database name.
     #### 4.13 Choose the Mid Server
     #### 4.14 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
+
+
+
+
+
+
+ 
+
+
+
