@@ -124,13 +124,3 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
     #### 4.12 Provide the database name.
     #### 4.13 Choose the Mid Server
     #### 4.14 Click OK, this will test for your unique credentialID with Centrify Credential Resolver file.
-
-
-
-
-
-
- 
-
-
-
