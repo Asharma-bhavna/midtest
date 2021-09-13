@@ -51,18 +51,18 @@ Reference :- https://docs.servicenow.com/bundle/rome-servicenow-platform/page/pr
         1.5 Provide the checkout permission of the system account to the ServiceUser.
 
 #### 2. For Active Directory Account of the Server.
-    #### 2.1 Enroll/Create the System in Centrify Vault.
-    #### 2.2 Add the suitable active direcotry user in the accounts section for the system.
-    #### 2.3 Create an ServiceUser provide all the required rights.
-    #### 2.4 Provide the view permission of the system to the ServiceUser.
-    #### 2.5 Provide the checkout permission of the active directory account to the ServiceUser.
+        2.1 Enroll/Create the System in Centrify Vault.
+        2.2 Add the suitable active direcotry user in the accounts section for the system.
+        2.3 Create an ServiceUser provide all the required rights.
+        2.4 Provide the view permission of the system to the ServiceUser.
+        2.5 Provide the checkout permission of the active directory account to the ServiceUser.
 
 #### 3. For Database Accounts.
-    #### 3.1 Enroll/Create the database in Centrify Vault.
-    #### 3.2 Add the suitable database user to the database under the accounts section.
-    #### 3.3 Create an ServiceUser provide all the required rights.
-    #### 3.4 Provide the view permission of the database to the ServiceUser.
-    #### 3.5 Provide the checkout permission of the database account to the ServiceUser.
+        3.1 Enroll/Create the database in Centrify Vault.
+        3.2 Add the suitable database user to the database under the accounts section.
+        3.3 Create an ServiceUser provide all the required rights.
+        3.4 Provide the view permission of the database to the ServiceUser.
+        3.5 Provide the checkout permission of the database account to the ServiceUser.
 
 ### Usage
 #### 1. Upload the JAR File on the ServiceNow instance and Synchronize with Mid Server Instance.
